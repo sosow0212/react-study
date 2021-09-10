@@ -3,7 +3,8 @@ import { useState } from "react";
 
 function SetState() {
   
-  const [Number, setNumber] = useState(0)
+  const [Number, setNumber] = useState(0);
+  const [Text, setText] = useState("")
 
   const increaseNum = () => {
     setNumber(Number+1);
@@ -19,7 +20,6 @@ function SetState() {
       <h2>Number : {Number} </h2>
       <button onClick={increaseNum}>Increase Number</button>
       <button onClick={decreaseNum}>Decrease Number</button>
-
     </div>
   );
 }

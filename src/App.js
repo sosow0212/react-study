@@ -2,6 +2,7 @@ import SetState from "./components/SetState";
 import UseState2 from "./components/UseState2";
 import Rendering from "./components/UseEffect";
 import UseEffect from "./components/UseEffect";
+import GoApi from "./components/GoApi";
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
     <div className="App">
       {/* <SetState />
       <UseState2 /> */}
-      <UseEffect name={obj.name}/>
+      {/* <UseEffect name={obj.name}/> */}
+      <GoApi />
     </div>
   );
 }

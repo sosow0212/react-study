@@ -3,6 +3,7 @@ import UseState2 from "./components/UseState2";
 import Rendering from "./components/UseEffect";
 import UseEffect from "./components/UseEffect";
 import GoApi from "./components/GoApi";
+import GoApi2 from "./components/GoApi2";
 
 function App() {
 
